@@ -4,10 +4,12 @@
 ## JMeter Result
 ### `/all-student` Endpoint
 - **Before** Optimization :
+
     ![JMeter All Student Before](/image/jmeterbefore1.jpg)
 
 
 - **After** Optimization :
+
     ![JMeter All Student After](/image/jmeterafter1.jpg)
 
 
@@ -20,41 +22,48 @@
 
 ### `/all-student-name` Endpoint
 - **Before** Optimization :
+
     ![JMeter All Student Name Before](/image/jmeterbefore2.jpg)
 
 
 - **After** Optimization :
+
     ![JMeter All Student Name After](/image/jmeterafter2.jpg)
 
 
 - **Comparison** :
-
     | Before   | After  | Improvement |
-        |----------|--------|-------------|
+    |----------|--------|-------------|
     | 1,396 ms | 345 ms | 75.29%      |
 
 ### `/highest-gpa` Endpoint
 - **Before** Optimization :
+
     ![JMeter Highest GPA Before](/image/jmeterbefore3.jpg)
 
 
 - **After** Optimization :
+
     ![JMeter Highest GPA After](/image/jmeterafter3.jpg)
 
 
 - **Comparison** :
 
     | Before | After  | Improvement |
-        |--------|--------|-------------|
+    |--------|--------|-------------|
     | 685 ms | 390 ms | 43.1%       |
 
 ### Combined JMeter Result using `cmd` :
 - **Before** Optimization :
+
     ![JMeter Command Before](/image/jmetercmdbefore.jpg)
 
 
 - **After** Optimization :
+
     ![JMeter Command After](/image/jmetercmdafter.jpg)
+
+
 
 ## Reflection
 ### Perbedaan antara JMeter Tests dan Profiling dengan Profiler IntelliJ dalam Optimization
